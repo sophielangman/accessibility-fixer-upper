@@ -12,7 +12,10 @@ html {
 
 a {
   color: #568c36;
-  text-decoration: none;
+}
+
+.read {
+  color: #113c00;
 }
 
 a:hover {
@@ -21,7 +24,6 @@ a:hover {
 
 .masthead {
   background-color: #568c36;
-
   color: #fff;
 }
 
@@ -36,7 +38,8 @@ a:hover {
   text-decoration: none;
 }
 
-.nav a:hover {
+.nav a:hover,
+.nav a:focus {
   background-color: #fff;
   color: #113c00;
 }
